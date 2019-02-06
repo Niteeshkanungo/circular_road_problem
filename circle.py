@@ -81,9 +81,6 @@ class cycle:
     def last(self):
         return self._data[-1]
 
-    def current(self):
-        return(self._data[0])
-
     def rounds(self):
         """
         rounds can be defined as the chance in which each car
